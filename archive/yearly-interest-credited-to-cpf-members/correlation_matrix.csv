@@ -1,0 +1,4 @@
+,interest_amt_base,interest_amt_extra,total_interest
+interest_amt_base,1.0,0.9872115831230521,0.9999041177380471
+interest_amt_extra,0.9872115831230521,1.0,0.9893244446201028
+total_interest,0.9999041177380471,0.9893244446201028,1.0

@@ -1,0 +1,191 @@
+# Metadata for Annual Value and Property Tax by Property Type, Annual
+---
+Identifier: 'f346f6bd-9929-4ccc-aa5e-a8b0d07fa7a8'
+Name: 'annual-value-and-property-tax-by-property-type-annual'
+Title: 'Annual Value and Property Tax by Property Type, Annual'
+Description: 'Number of property assessments, median annual value and property tax
+  collected by property types (HDB, Private Residential, Commercial, Industrial and
+  Others) for Financial Year (FY)2002 to FY2019.'
+Topics:
+  - 'Finance'
+Keywords:
+  - 'Commercial Property'
+  - 'HDB'
+  - 'Housing'
+  - 'Industrial Property'
+  - 'Private Property'
+  - 'Property Tax'
+  - 'Public Housing'
+  - 'Taxes'
+Publisher:
+  Name: 'Inland Revenue Authority of Singapore'
+  Admin 1:
+    Name: 'Chua Chanyi'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Chanyi@iras.gov.sg'
+  Admin 2:
+    Name: 'Chua Sin Chet'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Sin_Chet@iras.gov.sg'
+Sources:
+  - 'Inland Revenue Authority of Singapore'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2002-04-01 to 2020-03-31'
+Last Updated: '2020-09-23T06:26:25.532157'
+Resources:
+  -
+    Identifier: 'ea3ae22f-a84f-4951-b86b-2ef6ccc3f541'
+    Title: 'Annual Value and Property Tax By Property Type'
+    Url: 'https://storage.data.gov.sg/annual-value-and-property-tax-by-property-type-annual/resources/annual-value-and-property-tax-by-property-type-2020-09-23T06-26-24Z.csv'
+    Format: 'CSV'
+    Coverage: '2002-04-01 to 2020-03-31'
+    Description:
+      - '* The Annual Value of the property is the estimated annual rent of the property
+        if it were to be let, excluding the rent for furniture, fittings and service
+        charge.'
+      - '* Number of cases refers to the number of property assessments. Properties
+        may be assessed individually or collectively as a group.'
+      - '* Property Tax Collection excludes Contribution in-lieu of Property Tax,
+        Compounding Fee and Fees & Licences.'
+      - '* Property Type - Others, refers mainly to land but also includes clubs,
+        garages, places of religious worship, etc. Property tax collection was higher
+        in FY2011/12 due to the cessation of the Property Tax Deferral for Land Approved
+        for Development on 21 January 2011 which resulted in the deferred property
+        tax being collected in FY2011/12.'
+    Last Updated: '2020-09-23T06:26:24.688138'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'property_type'
+        Title: 'Type of Property'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_cases'
+        Title: 'No. of Cases'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
+      -
+        Name: 'annual_value'
+        Title: 'Annual Value'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - 'Unit of Measure: S$ Thousand'
+          - 'With effect from FY2012/13, total Annual Value has been replaced with
+            median Annual Value.'
+          - '"na" : Data not available or not applicable'
+      -
+        Name: 'median_annual_value'
+        Title: 'Median Annual Value'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - 'Unit of Measure: S$'
+          - 'With effect from FY2012/13, total Annual Value has been replaced with
+            median Annual Value.'
+          - '"na" : Data not available or not applicable'
+      -
+        Name: 'property_tax_collection'
+        Title: 'Property Tax Collection'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+  -
+    Identifier: '48520cf7-bbcd-4824-8ce0-93f5f9794672'
+    Title: 'Median Annual Value and Property Tax By Type of HDB'
+    Url: 'https://storage.data.gov.sg/annual-value-and-property-tax-by-property-type-annual/resources/median-annual-value-and-property-tax-by-type-of-hdb-2020-09-20T09-29-46Z.csv'
+    Format: 'CSV'
+    Coverage: '2010-04-01 to 2020-03-31'
+    Description:
+      - '* The Annual Value of the property is the estimated annual rent of the property
+        if it were to be let, excluding the rent for furniture, fittings and service
+        charge.'
+      - '* Property Tax Collection excludes Contribution in-lieu of Property Tax,
+        Compounding Fee and Fees & Licences.'
+    Last Updated: '2020-09-20T09:29:46.666718'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'type_of_hdb'
+        Title: 'Type of HDB'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_cases'
+        Title: 'No. of Cases'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
+      -
+        Name: 'median_annual_value'
+        Title: 'Median Annual Value'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+      -
+        Name: 'property_tax_collection'
+        Title: 'Property Tax Collection'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+  -
+    Identifier: 'b617ceed-08d0-4278-9ce5-730878bc3053'
+    Title: 'Median Annual Value and Property Tax By Type of Private Residential Property'
+    Url: 'https://storage.data.gov.sg/annual-value-and-property-tax-by-property-type-annual/resources/median-annual-value-and-property-tax-by-type-of-private-residential-property-2020-09-20T09-31-19Z.csv'
+    Format: 'CSV'
+    Coverage: '2010-04-01 to 2020-03-31'
+    Description:
+      - '* The Annual Value of the property is the estimated annual rent of the property
+        if it were to be let, excluding the rent for furniture, fittings and service
+        charge.'
+      - '* Property Tax Collection excludes Contribution in-lieu of Property Tax,
+        Compounding Fee and Fees & Licences.'
+    Last Updated: '2020-09-20T09:31:19.296711'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'type_of_private_residential'
+        Title: 'Type of Private Residential Property'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_cases'
+        Title: 'No. of Cases'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
+      -
+        Name: 'median_annual_value'
+        Title: 'Median Annual Value'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+      -
+        Name: 'property_tax_collection'
+        Title: 'Property Tax Collection'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
